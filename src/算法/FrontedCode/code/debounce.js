@@ -45,8 +45,7 @@ function debounce(fn,wait){
 // 精简代码
 function debounce(fn,wait){
     let timer = null;
-    return function(){
-        if(timer)clearTimeout(timer)
-        timer = setTimeout(()=>fn.apply(this, arguments),wait)
+    return (...args)=>{
+        clearTimeout(timer)&&(timer = setTimeout(()=>fn.apply(this, args),wait))
     }
 }
