@@ -21,9 +21,11 @@ function debounce(fn, wait){
 // 基本实现了防抖的思想
 // 缺陷是什么？ 一个全局变量 timer ,一个全局函数 debounce。是否可以进行 变量封装
 
+
 // 第二版本
+// 考虑维护全局纯净，可以借助闭包来实现
 function debounce(fn,wait){
-    let timer = null;
+    let timer = null;// 借助闭包
     return function(){
         let args = arguments
         if(timer){
