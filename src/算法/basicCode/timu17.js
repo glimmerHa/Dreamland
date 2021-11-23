@@ -1,3 +1,4 @@
+// 深度优先
 function func(digits){
     if(digits === null || digits.length ===0) return []
     const res = []

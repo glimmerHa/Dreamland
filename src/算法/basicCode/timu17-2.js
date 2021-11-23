@@ -1,3 +1,4 @@
+// 广度优先 BFS
 function func(digits){
     if(digits === null || digits.length ===0) return []
     const map = {
