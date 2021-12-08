@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复制后追加自定义内容</title>
+</head>
+<body>
+    <div>选中这一段文字，点击或者复制都可以尝试</div>
+    <script>
+        document.addEventListener('copy',function(e){
+            let clipboardData = e.clipboardData || window.clipboardData
+            if(!clipboardData) return;
+            let text = window.getSelection().toString()
+            console.log(text)
+            if(text){
+                e.preventDefault()
+                clipboardData.setData('text/plain', text+ '\r\n\n-------\n这是追加的版本信息')
+            }
+        })
+    </script>
+</body>
+</html>
