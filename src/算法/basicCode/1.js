@@ -1,21 +1,20 @@
-// 226. 翻转二叉树
-/**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {TreeNode}
- */
- var invertTree = function(root) {
-    if(!root) return null
-    let left = invertTree(root.left)
-    let right = invertTree(root.right)
-    root.left = right
-    root.right = left
-    return root
-};
+async function async1() {
+    console.log("async1 start");
+    await async2();
+    console.log("async1 end");
+}
+async  function async2() {
+    console.log( 'async2');
+}
+console.log("script start");
+setTimeout(function () {
+    console.log("settimeout");
+},0);
+async1();
+new Promise(function (resolve) {
+    console.log("promise1");
+    resolve();
+}).then(function () {
+    console.log("promise2");
+});
+console.log('script end’);
