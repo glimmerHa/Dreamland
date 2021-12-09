@@ -54,10 +54,10 @@
 146 LRU 缓存机制 Hard
 148 排序链表 Medium
 152 乘积最大子数组 Medium
-155 最小栈 Easy
-160 相交链表 Easy
-169 多数元素 Easy
-198 打家劫舍 Easy
+155 最小栈 Easy-1
+160 相交链表 Easy-1
+169 多数元素 Easy-1
+198 打家劫舍 Easy-1
 200 岛屿数量 Medium
 206 反转链表 Easy
 207 课程表 Medium
