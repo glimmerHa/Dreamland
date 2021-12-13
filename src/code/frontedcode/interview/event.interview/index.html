@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="btnBox">
+        <input type="button" value="button_1" />
+        <input type="button" value="button_2" />
+        <input type="button" value="button_3" />
+        <input type="button" value="button_4" />
+        <input type="button" value="button_5" />
+    </div>
+    <script type="text/javascript">
+        var btnBox = document.getElementById('btnBox'),
+            input = btnBox.getElementsByTagName('input')
+        var l = input.length
+        for(var i =0; i<l; i++){
+            input[i].onclick = function(){
+                alert(i);
+            }
+        }
+    </script>
+    <!-- 不能，输出的结果都是5；事件绑定是异步的 -->
+    <!--
+    <div id="btnBox">
+        <input type="button" value="button_1" />
+        <input type="button" value="button_2" />
+        <input type="button" value="button_3" />
+        <input type="button" value="button_4" />
+        <input type="button" value="button_5" />
+    </div>
+    <script type="text/javascript">
+        var btnBox = document.getElementById('btnBox'),
+            input = btnBox.getElementsByTagName('input')
+            var l = input.length
+            for(var i =0; i<l; i++){
+                (function(i){
+                    input[i].onclick = function(){
+                    alert(i);
+                }
+                })(i)
+            }
+    </script>
+-->
+</body>
+</html>
