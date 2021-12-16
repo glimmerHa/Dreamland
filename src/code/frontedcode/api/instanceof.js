@@ -10,6 +10,15 @@ function myinstanceof(left, right){
         left = left.__proto__
     }
 }
+function instanceof1(left, right){
+    let prototype = right.prototype
+    left = Object.getPrototypeOf(left)
+    while(true){
+        if(left === null) return false
+        if(left === prototype) return true
+        left = Object.getPrototypeOf(left)
+    }
+}
 
 ({name:111}) instanceof Object
 myinstanceof(({name:111}) , Object)
