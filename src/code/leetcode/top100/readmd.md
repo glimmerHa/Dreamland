@@ -1,33 +1,33 @@
 ## 100top
 ```
-1 两数之和-Easy
-2 两数相加-Medium
-3 无重复字符的最长子串-Medium
+1 两数之和-Easy-1
+2 两数相加-Medium-1
+3 无重复字符的最长子串-Medium-1
 4 寻找两个正序数组的中位数-Hard
-5 最长回文子串- Medium
+5 最长回文子串- Medium-1
 10 正则表达式匹配 - Hard
-11 盛最多水的容器- Medium
-15 三数之和- Medium
-17 电话号码的字母组合- Medium
+11 盛最多水的容器- Medium-1
+15 三数之和- Medium-1
+17 电话号码的字母组合- Medium-1
 19 删除链表的倒数第 N 个结点 - Medium
 20 有效的括号 - Easy
-21 合并两个有序链表 -  Easy
+21 合并两个有序链表 -  Easy-1
 22 括号生成 - Medium
-23 合并K个升序链表 - Hard
-31 下一个排列 -  Medium
-32 最长有效括号- Hard
-33 搜索旋转排序数组- Medium
-34  在排序数组中查找元素的第一个和最后一个位置- Medium
-39 组合总和 - Medium
+23 合并K个升序链表 - Hard-1
+31 下一个排列 -  Medium-1
+32 最长有效括号- Hard-1
+33 搜索旋转排序数组- Medium -1 二分查找
+34  在排序数组中查找元素的第一个和最后一个位置- Medium-1 二分查找
+39 组合总和 - Medium -1 回溯算法
 42 接雨水 -Hard
-46 全排列- Medium
+46 全排列- Medium-1 dfs
 48 旋转图像 -Medium
 49 字母异位词分组 - Medium
-53 最大子数组和- Easy
-55 跳跃游戏- Medium
-56 合并区间- Medium
-62 不同路径- Medium
-64 最小路径和- Medium
+53 最大子数组和- Easy - 1动态规划
+55 跳跃游戏- Medium - 1 贪心
+56 合并区间- Medium -1 排序，然后比较
+62 不同路径- Medium - 1 动态规划
+64 最小路径和- Medium - 1 动态规划 same 62
 70 爬楼梯- Easy
 72 编辑距离- Hard
 75 颜色分类- Medium
@@ -97,9 +97,9 @@
 581 最短无序连续子数组 Easy
 617 合并二叉树 Easy
 621  任务调度器 Medium
-647 回文子串 Medium
-739 每日温度 Medium
-771 宝石与石头 Easy
+647 回文子串 Medium-1
+739 每日温度 Medium-1
+771 宝石与石头 Easy-1
 ```
 
 ## 单调栈：
