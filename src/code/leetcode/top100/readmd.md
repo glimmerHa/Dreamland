@@ -10,9 +10,9 @@
 15 三数之和- Medium-1
 17 电话号码的字母组合- Medium-1
 19 删除链表的倒数第 N 个结点 - Medium
-20 有效的括号 - Easy
+20 有效的括号 - Easy -1
 21 合并两个有序链表 -  Easy-1
-22 括号生成 - Medium
+22 括号生成 - Medium -1
 23 合并K个升序链表 - Hard-1
 31 下一个排列 -  Medium-1
 32 最长有效括号- Hard-1
@@ -20,14 +20,14 @@
 34  在排序数组中查找元素的第一个和最后一个位置- Medium-1 二分查找
 39 组合总和 - Medium -1 回溯算法
 42 接雨水 -Hard
-46 全排列- Medium-1 dfs
+46 全排列- Medium -1 dfs
 48 旋转图像 -Medium
 49 字母异位词分组 - Medium
-53 最大子数组和- Easy - 1动态规划
-55 跳跃游戏- Medium - 1 贪心
+53 最大子数组和- Easy -1动态规划
+55 跳跃游戏- Medium -1 贪心
 56 合并区间- Medium -1 排序，然后比较
-62 不同路径- Medium - 1 动态规划 same 64
-64 最小路径和- Medium - 1 动态规划 same 62
+62 不同路径- Medium -1 动态规划 same 64
+64 最小路径和- Medium -1 动态规划 same 62
 70 爬楼梯- Easy -1 简单动态规划
 72 编辑距离- Hard
 75 颜色分类- Medium ---1 二指针法
@@ -40,39 +40,39 @@
 96 不同的二叉搜索树- Medium
 98 验证二叉搜索树- Medium
 101 对称二叉树- Easy -1 递归
-102 二叉树的层序遍历- Medium -- 1 层序遍历使用 队列 进行push shift
-104 二叉树的最大深度- Easy --- 1 DFS BFS 都可以实现
+102 二叉树的层序遍历- Medium --1 层序遍历使用 队列 进行push shift
+104 二叉树的最大深度- Easy ---1 DFS BFS 都可以实现
 105 从前序与中序遍历序列构造二叉树 Medium
 114 二叉树展开为链表 Medium
-121 买卖股票的最佳时机 Easy
+121 买卖股票的最佳时机 Easy-1 一次遍历
 124 二叉树中的最大路径和 Hard
 128 最长连续序列 Hard
-136 只出现一次的数字 Easy
+136 只出现一次的数字 Easy -1 异或运算
 139 单词拆分 Medium
-141 环形链表 Easy
+141 环形链表 Easy -1 快慢指针
 142 环形链表 II Medium
 146 LRU 缓存机制 Hard
 148 排序链表 Medium
 152 乘积最大子数组 Medium
-155 最小栈 Easy-1
-160 相交链表 Easy-1
-169 多数元素 Easy-1
-198 打家劫舍 Easy-1
+155 最小栈 Easy -1
+160 相交链表 Easy -1
+169 多数元素 Easy -1
+198 打家劫舍 Easy -1
 200 岛屿数量 Medium
-206 反转链表 Easy
+206 反转链表 Easy -1
 207 课程表 Medium
 208 实现 Trie (前缀树) Medium
 215 数组中的第K个最大元素 Medium
 221 最大正方形 Medium
-226 翻转二叉树 Easy
-234 回文链表 Easy
+226 翻转二叉树 Easy -1 子节点先翻转，翻转后交换左右节点，并返回
+234 回文链表 Easy  -1
 236 二叉树的最近公共祖先 Medium
 238 除自身以外数组的乘积 Medium
 239 滑动窗口最大值 Hard
 240 搜索二维矩阵 II Medium
 253  会议室 II Medium 会员题看不到
 279 完全平方数 Medium
-283 移动零 Easy
+283 移动零 Easy -1
 287 寻找重复数 Medium
 297 二叉树的序列化与反序列化 Hard
 300 最长递增子序列 Medium
