@@ -26,11 +26,11 @@
 53 最大子数组和- Easy - 1动态规划
 55 跳跃游戏- Medium - 1 贪心
 56 合并区间- Medium -1 排序，然后比较
-62 不同路径- Medium - 1 动态规划
+62 不同路径- Medium - 1 动态规划 same 64
 64 最小路径和- Medium - 1 动态规划 same 62
-70 爬楼梯- Easy
+70 爬楼梯- Easy -1 简单动态规划
 72 编辑距离- Hard
-75 颜色分类- Medium
+75 颜色分类- Medium ---1 二指针法
 76 最小覆盖子串- Hard
 78 子集- Medium
 79 单词搜索- Medium
@@ -39,9 +39,9 @@
 94 二叉树的中序遍历- Medium
 96 不同的二叉搜索树- Medium
 98 验证二叉搜索树- Medium
-101 对称二叉树- Easy
-102 二叉树的层序遍历- Medium
-104 二叉树的最大深度- Easy
+101 对称二叉树- Easy -1 递归
+102 二叉树的层序遍历- Medium -- 1 层序遍历使用 队列 进行push shift
+104 二叉树的最大深度- Easy --- 1 DFS BFS 都可以实现
 105 从前序与中序遍历序列构造二叉树 Medium
 114 二叉树展开为链表 Medium
 121 买卖股票的最佳时机 Easy
